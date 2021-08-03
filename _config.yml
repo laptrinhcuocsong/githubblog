@@ -2,3 +2,9 @@ name: Awesome blog name
 description: This is blog made by Blog Github
 site_url: "https://laptrinhcuocsong.com"
 permalink: /:title.html
+paginate: 15
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
