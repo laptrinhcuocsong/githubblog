@@ -1,0 +1,4 @@
+name: Awesome blog name
+description: This is blog made by Blog Github
+site_url: "https://laptrinhcuocsong.com"
+permalink: /:title.html
