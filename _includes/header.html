@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>
+    {% if page.title %}
+      {{ page.title }}
+    {% else %}
+      {{ site.name }} - {{ site.description }}
+    {% endif %}
+  </title>
