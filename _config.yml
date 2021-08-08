@@ -4,6 +4,10 @@ site_url: "https://buivannguyen.com/githubwriter"
 permalink: /:title.html
 paginate: 15
 
+defaults:
+  values:
+    layout: "post"
+
 plugins:
   - jekyll-sitemap
   - jekyll-feed
