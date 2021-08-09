@@ -1,5 +1,6 @@
 ---
 title: First post
+excerpt: fsdafsadfasdf
 ---
 
 ## This is the first post
