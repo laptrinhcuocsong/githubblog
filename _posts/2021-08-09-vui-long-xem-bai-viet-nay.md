@@ -8,6 +8,7 @@ ffff: ddddd
 uuuu: uuuuuu
 title: vui long xem bai viet nay
 excerpt: Day la mo ta ngan
+thumbnail: Untitled-1.jpg
 ---
 Day la noi dung cua bai viet
 
