@@ -2,9 +2,13 @@ site_url: "https://buivannguyen.com/githubblog"
 permalink: /:title.html
 paginate: 15
 
+layouts_dir: themes/default
+includes_dir: themes/default
+
 defaults:
-  values:
-    layout: "post"
+  -
+    values:
+      layout: "post"
 
 plugins:
   - jekyll-sitemap
