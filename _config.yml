@@ -5,6 +5,8 @@ paginate: 15
 layouts_dir: themes/default
 includes_dir: themes/default
 
+syntax_highlighter: rouge
+
 defaults:
   -
     values:
