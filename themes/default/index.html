@@ -4,18 +4,18 @@
 
 <div class="container py-5">
   {% for post in paginator.posts %}
-  <article class="post d-flex mb-5 mx-5 px-5">
-    <a href="{{ post.url }}">
+  <article class="post row mb-5 mx-lg-5 px-lg-5">
+    <a href="{{ post.url }}" class="col-4 col-md-3">
       {% if post.thumbnail %}
-      <img src="/images/{{ post.thumbnail }}" title="{{ post.title | xml_escape }}" alt="{{ post.title | xml_escape }}">
+      <img class="mw-100" src="/images/{{ post.thumbnail }}" title="{{ post.title | xml_escape }}" alt="{{ post.title | xml_escape }}">
       {% else %}
-      <img src="/themes/default/images/default_thumbnail.png" alt="{{ post.title  | xml_escape }}">
+      <img class="mw-100" src="/themes/default/images/default_thumbnail.png" title="{{ post.title | xml_escape }}" alt="{{ post.title  | xml_escape }}">
       {% endif %}
     </a>
-    <div class="ml-4">
-      <h1>
+    <div class="col-8 col-md-9">
+      <h3>
         <a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title | xml_escape }}</a>
-      </h1>
+      </h3>
       <div class="excerpt">
         {{ post.excerpt }}
       </div>
@@ -23,8 +23,8 @@
   </article>
   {% endfor %}
 
-  <nav>
-    <ul class="pagination">
+  <nav class="d-flex">
+    <ul class="pagination mx-auto">
       {% if paginator.previous_page %}
       <li class="page-item">
         <a class="page-link"
